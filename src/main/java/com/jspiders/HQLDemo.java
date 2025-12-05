@@ -8,6 +8,7 @@ import org.hibernate.query.Query;
 
 public class HQLDemo {
     public static void main(String[] args) {
+        System.out.println("program starts...");
         //load configuration
         Configuration config = new Configuration();
         config.configure("hibernate.cfg.xml");
